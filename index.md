@@ -1,7 +1,11 @@
 ---
-layout: home
-excerpt: "Welcome."
-tags: [homepage]
+layout: page
+title: ""
+date: 
+modified:
+excerpt:
+tags: []
 image:
-  feature: texture-feature-01.jpg
+  feature:
 ---
+
