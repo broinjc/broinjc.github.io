@@ -8,7 +8,7 @@ comments: true
 
 I will be posting updates here until engrade is back online.
 
-##Assignments:
+##Assignments
 
   - Compare and contrast the ENIAC with one of your own mobile devices
 
