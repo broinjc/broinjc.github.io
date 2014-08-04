@@ -1,0 +1,204 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>Syntax Highlighting &#8211; The pixels and bits of a poet</title>
+<meta name="description" content="I love syntax highlighting!">
+<meta name="keywords" content="sample post, code, highlighting">
+
+
+
+<!-- Twitter Cards -->
+<meta name="twitter:title" content="Syntax Highlighting">
+<meta name="twitter:description" content="I love syntax highlighting!">
+<meta name="twitter:site" content="@natsamnic">
+<meta name="twitter:creator" content="@natsamnic">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://localhost:4000/images/">
+
+<!-- Open Graph -->
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Syntax Highlighting">
+<meta property="og:description" content="I love syntax highlighting!">
+<meta property="og:url" content="http://localhost:4000/code-highlighting-post/">
+<meta property="og:site_name" content="The pixels and bits of a poet">
+
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/code-highlighting-post/">
+<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="The pixels and bits of a poet Feed">
+
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="http://localhost:4000/assets/css/main.css">
+
+<meta http-equiv="cleartype" content="on">
+
+<!-- HTML5 Shiv and Media Query Support -->
+<!--[if lt IE 9]>
+	<script src="http://localhost:4000/assets/js/vendor/html5shiv.min.js"></script>
+	<script src="http://localhost:4000/assets/js/vendor/respond.min.js"></script>
+<![endif]-->
+
+<!-- Modernizr -->
+<script src="http://localhost:4000/assets/js/vendor/modernizr-2.7.1.custom.min.js"></script>
+
+<!-- Icons -->
+<!-- 16x16 -->
+<link rel="shortcut icon" href="http://localhost:4000/favicon.ico">
+<!-- 32x32 -->
+<link rel="shortcut icon" href="http://localhost:4000/favicon.png">
+<!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
+<link rel="apple-touch-icon-precomposed" href="http://localhost:4000/images/apple-touch-icon-precomposed.png">
+<!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://localhost:4000/images/apple-touch-icon-72x72-precomposed.png">
+<!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://localhost:4000/images/apple-touch-icon-114x114-precomposed.png">
+<!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://localhost:4000/images/apple-touch-icon-144x144-precomposed.png">
+
+</head>
+
+<body class="post">
+
+<!--[if lt IE 9]><div class="browser-upgrade alert alert-info">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div><![endif]-->
+
+<div class="navigation-wrapper">
+	<div class="site-name">
+		<a href="http://localhost:4000">The pixels and bits of a poet</a>
+	</div><!-- /.site-name -->
+	<div class="top-navigation">
+		<nav role="navigation" id="site-nav" class="nav">
+		    <ul>
+		        
+					    
+					        
+					    
+					    <li><a href="http://localhost:4000/about/" >About</a></li>
+					  
+		    </ul>
+		</nav>
+	</div><!-- /.top-navigation -->
+</div><!-- /.navigation-wrapper -->
+
+
+
+<div id="main" role="main">
+  <div class="article-author-side">
+    
+
+
+
+	<img src="http://localhost:4000/images/nat.jpg" class="bio-photo" alt="Nathan bio photo"></a>
+
+<h3>Nathan</h3>
+<p>Programmer/Designer</p>
+
+<a href="http://twitter.com/natsamnic" class="author-social" target="_blank"><i class="fa fa-twitter-square"></i> Twitter</a>
+
+
+
+
+
+<a href="http://github.com/broinjc" class="author-social" target="_blank"><i class="fa fa-github"></i> Github</a>
+
+
+
+
+
+
+  </div>
+  <article>
+    <div class="headline-wrap">
+      
+        <h1><a href="http://localhost:4000/code-highlighting-post/" rel="bookmark" title="Syntax Highlighting">Syntax Highlighting</a></h1>
+      
+    </div><!--/ .headline-wrap -->
+    <div class="article-wrap">
+      <p><a href="http://en.wikipedia.org/wiki/Syntax_highlighting">Syntax highlighting</a> is a feature that displays source code, in different colors and fonts according to the category of terms. This feature facilitates writing in a structured language such as a programming language or a markup language as both structures and syntax errors are visually distinct. Highlighting does not affect the meaning of the text itself; it is intended only for human readers.</p>
+
+<h3 id="check-it-out">Check it out</h3>
+
+<p>Let’s try out a quick little ruby snippet… Memoized recursive factorials anyone?(!)</p>
+
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="vi">@stat</span> <span class="o">=</span> <span class="o">[]</span> <span class="k">def</span> <span class="nf">fact</span> <span class="n">n</span> <span class="n">n</span> <span class="o">==</span> <span class="mi">0</span> <span class="o">?</span> <span class="mi">1</span> <span class="p">:</span> <span class="vi">@stat</span><span class="o">[</span><span class="n">n</span><span class="o">]</span> <span class="o">||=</span> <span class="n">n</span> <span class="o">*</span> <span class="n">fact</span><span class="p">(</span><span class="n">n</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span> <span class="k">end</span></code></pre></div>
+
+<p>And that’s the gist of it…</p>
+
+<script src="https://gist.github.com/broinjc/db6e0ac214c355c887e5.js"> </script>
+
+<blockquote>
+  <p>Though poetry can woo you, the coding high is what keeps you hooked</p>
+</blockquote>
+
+      <hr />
+      <footer role="contentinfo">
+        <div class="article-author-bottom">
+          
+
+
+
+	<img src="http://localhost:4000/images/nat.jpg" class="bio-photo" alt="Nathan bio photo"></a>
+
+<h3>Nathan</h3>
+<p>Programmer/Designer</p>
+
+<a href="http://twitter.com/natsamnic" class="author-social" target="_blank"><i class="fa fa-twitter-square"></i> Twitter</a>
+
+
+
+
+
+<a href="http://github.com/broinjc" class="author-social" target="_blank"><i class="fa fa-github"></i> Github</a>
+
+
+
+
+
+
+        </div>
+        <p class="byline"><strong>Syntax Highlighting</strong> was published on <time datetime="2013-08-16T00:00:00-07:00">August 16, 2013</time>.</p>
+      </footer>
+    </div><!-- /.article-wrap -->
+  
+  </article>
+</div><!-- /#main -->
+
+<div class="footer-wrap">
+  <div class="related-articles">
+  <h4>You might also enjoy <small class="pull-right">(<a href="http://localhost:4000/posts/">View all posts</a>)</small></h4>
+    <ul>
+    
+      <li><a href="http://localhost:4000/twinkling-lights/" title="Twinkling Lights">Twinkling Lights</a></li>
+    
+    </ul>
+    <hr />
+  </div><!-- /.related-articles -->
+  <footer>
+    <span>&copy; 2014 Nathan. &lt;3 <a href="http://jekyllrb.com">Jekyll</a> &amp; <a href="http://mademistakes.com/minimal-mistakes/">Minimal Mistakes</a></span>
+
+  </footer>
+</div><!-- /.footer-wrap -->
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="http://localhost:4000/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script src="http://localhost:4000/assets/js/scripts.min.js"></script>
+
+
+  
+	        
+
+</body>
+</html>
