@@ -1,4 +1,4 @@
 broinjc.github.io
 =================
 
-My Code Portfolio
+This is going to be my little code portfolio :)
