@@ -9,4 +9,4 @@ image:
   feature: texture-feature-01.jpg
 ---
 
-Hello universe.
+Hello universe. I really enjoy coding.
