@@ -78,7 +78,7 @@ An interesting way to add two numbers could work like this. Setup an url `url(r'
 
 Then create the template to show the results:
     
-    {{ sum }}
+    `{{ sum }}`
 
 
 ##The Awesomer Way
@@ -93,7 +93,7 @@ Let's try to add our numbers *without* page refresh. Going backwards first modif
 
 ...and a Cross Site Scripting Token. We will talk about this in a bit.
 
-        {% csrf_token %}
+        `{% csrf_token %}`
 
 All your appropriate inputs...
 
